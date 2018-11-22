@@ -4,7 +4,17 @@ Database name = chat_history
 Table name = chat_backup
 Database url = jdbc:mysql://localhost:3306/chat_history
 
-
+Database setup :
+	Run the following command in terminal in order to create database and table-
+	CREATE DATABASE chat_history;
+	USE chat_history;
+	CREATE TABLE chat_backup (
+    		user varchar(10),
+    		msg varchar(100)
+	);
+To view data from database :
+	SELECT* from chat_backup;
+	
 Steps to run the application :
 	1)Run the Server.java first.
 	2)Create two instances of Client.java in Eclipse by using the "Run Configuration" option in "Run As".
