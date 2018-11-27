@@ -1,5 +1,6 @@
 Host Address = localhost
 Port number = 9984
+Database = MySQL
 Database name = chat_history
 Table name = chat_backup
 Database url = jdbc:mysql://localhost:3306/chat_history
