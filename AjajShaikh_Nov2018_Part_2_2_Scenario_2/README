@@ -23,6 +23,6 @@ Steps to run the application :
 	
 How to send a message :
 	From the client console type the message you want to send say "msg" and hit enter.
-  The sent message can be viewed by switching console corresponding to each client.
+  	The sent message can be viewed by switching console corresponding to each client.
 	After sending the message the console can be switched with "Display Selected Console" option.
 	
