@@ -87,7 +87,7 @@ class ClientHandler implements Runnable {
 							recipent="client 1";
 						else
 							recipent ="client 0";
-						stmt.executeUpdate("insert into chat_backup_broadcast values('time' , \"" + toreturn + "\" )");
+						stmt.executeUpdate("insert into chat_backup values('time' , \"" + toreturn + "\" )");
 						stmt.executeUpdate("insert into chat_backup values(\"" + recipent + "\",\"" + MsgToSend + "\")");
 						
 						con.close();
