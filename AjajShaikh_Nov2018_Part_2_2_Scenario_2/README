@@ -1,14 +1,14 @@
 Host Address = localhost
 Port number = 9984
 Database name = chat_history
-Table name = chat_backup
+Table name = chat_backup_broadcast
 Database url = jdbc:mysql://localhost:3306/chat_history
 
 Database setup :
 	Run the following command in terminal in order to create database and table-
 	CREATE DATABASE chat_history;
 	USE chat_history;
-	CREATE TABLE chat_backup (
+	CREATE TABLE chat_backup_broadcast (
     		user varchar(10),
     		msg varchar(100)
 	);
